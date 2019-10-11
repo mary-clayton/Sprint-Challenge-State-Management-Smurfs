@@ -23,9 +23,9 @@ const Form = props => {
     return (
         <div className= "smurf-form">
             <form>
-                <input name="name" type="text" placeholder="name" onChange={handleChanges}></input>
-                <input name="age" type="number" placeholder="age" onChange={handleChanges}></input>
-                <input name="height" type="text" placeholder="height" onChange={handleChanges}></input>
+                <input name="name" type="text" placeholder="name.." onChange={handleChanges}></input>
+                <input name="age" type="number" placeholder="age.." onChange={handleChanges}></input>
+                <input name="height" type="text" placeholder="height.." onChange={handleChanges}></input>
                 <button type="submit" onClick={handleSubmit}>Add Your Smurf</button>
             </form>
         </div>
