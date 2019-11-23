@@ -1,28 +1,54 @@
+/* Import */
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One&display=swap');
+
+/* Global */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+body {
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0.16)), url(../img/bg.png), #C4C4C4;
+  background-size: cover; 
+  font-family: Hammersmith one;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+/* Form */
+input {
+  font-family: Hammersmith one;
+  width: 444px;
+  height: 25px;
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 10%;
+  font-size: 1rem;
 }
 
-.App-title {
-  font-size: 1.5em;
+.smurf-form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-intro {
-  font-size: large;
+button {
+  font-family: Hammersmith one;
+  width: 265px;
+  height: 40px;
+  background: #6299CB;
+  border: none;
+  font-size: 1rem;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.title {
+  margin: 5% 0 0 0;
+}
+/* Output */
+.smurf-list {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.smurf {
+  margin: 3%;
+  padding: 2% 5%;
+  background: white;
 }
